@@ -1,0 +1,38 @@
+.hero-wrapper {
+  width: 100%;
+  height: 90vh;
+  background-size: cover;
+  background-image: url(../../assets/hero-bg-1.jpg);
+  border-radius: 0 0 40% 0;
+  border-bottom: #dedede solid 1px;
+  box-shadow: 0px 2px 0px 1px #dedede;
+  box-shadow: 0 0 20px #545454;
+}
+.hero-title {
+  width: 100%;
+  height: 100vh;
+}
+.hero-title h1 {
+  font-weight: 400;
+  font-size: 5rem;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  color: #e5e5e5;
+  z-index: 999;
+}
+.hero-title h2 {
+  font-weight: 500;
+  font-size: 5rem;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  color: #e5e5e5;
+  z-index: 999;
+}
+.item a {
+  text-decoration: none;
+  color: #dedede;
+}
+.item a:hover {
+  text-decoration: line-through;
+  color: #575656;
+}
